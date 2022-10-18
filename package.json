@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shoaibattari/javascript-excercise-node.js/issues"
   },
-  "homepage": "https://github.com/shoaibattari/javascript-excercise-node.js#readme"
+  "homepage": "https://github.com/shoaibattari/javascript-excercise-node.js#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

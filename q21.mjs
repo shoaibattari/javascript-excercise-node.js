@@ -6,3 +6,4 @@ let StudentName = {
     F_name: "sattar",
     Age: "30",
 };
+console.log(StudentName);

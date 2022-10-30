@@ -11,3 +11,11 @@ console.log(name === "shoaib"); // false
 console.log(name === "saleem"); // false
 console.log(name.toLocaleUpperCase() === "shoaib"); // false
 console.log(name.toLocaleUpperCase() === "SHOAIB"); // true
+
+// • Tests using the lower case function
+
+console.log(name.toLocaleLowerCase() === "shoaib"); // true
+console.log(name.toLocaleLowerCase() === "Shoaib"); // false
+
+// • Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+

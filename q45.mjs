@@ -13,4 +13,5 @@ function cars(company, model) {
 }
 
 console.log(cars("honda", 2015,));
-console.log(cars("civic", 2015,));
+console.log(cars("honda", 2015,));
+console.log(cars("mehran", 2020,));

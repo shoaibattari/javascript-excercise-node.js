@@ -4,11 +4,17 @@
 // that you have one array of the original names and one array with the Great added to each magician’s name.
 
 let magicians = ["david", "john", "peter", "anthony"];
-
+let great_magicians = [];
 function show_magicians(arr) {
     arr.map((magicians) => {
         console.log(magicians);})}
 
 
+function make_great2(arr){
+    arr.map((magicians) => {
+        console.log(`the great ${magicians}`);})}
+  
 
-show_magicians(magicians);
+show_magicians(magicians)
+great_magicians = magicians;
+make_great2(great_magicians)
